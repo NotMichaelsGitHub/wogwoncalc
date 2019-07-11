@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="stylesheet.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="script.js"></script>
+
+
+</head>
+<body>
+
+
+<div class="jumbotron text-center">
+    <img src="capture.png" style="width: 80%">
+</div>
+
+<div class="text-center">
+    <button class="btn btn-outline-secondary" onclick="window.location.href='index.html'">SQUAD REPORT</button>
+    <button class="btn btn-outline-secondary" type="button" disabled>INGAME</button>
+</div>
+
+<br>
+
+<div class="container">
+
+    <div class="row">
+        <div class=".col-xs-12 col-sm-4 col-sm-offset-4 text-center">
+            <label>MENTAL/PHYSICAL COMPARISON</label>
+        </div>
+    </div>
+    <div class="row">
+        <div class=".col-xs-12 col-sm-2 col-sm-offset-5 text-center">
+            Aggression:  <input type="text" id="agtxt"  class="form-control"  value="">
+        </div>
+    </div>
+    <div class="row">
+        <div class=".col-xs-12 col-sm-2 col-sm-offset-5 text-center">
+            Interceptions: <input type="text" class="form-control" id="intertxt" value="">
+        </div>
+    </div>
+    <div class="row">
+        <div class=".col-xs-12 col-sm-2 col-sm-offset-5 text-center">
+            Positioning:  <input type="text" id="postxt" value="" class="form-control">
+        </div>
+    </div>
+    <div class="row">
+        <div class=".col-xs-12 col-sm-2 col-sm-offset-5 text-center">
+            Vision: <input type="text" id="vistxt" value="" class="form-control">
+        </div>
+    </div>
+    <div class="row">
+        <div class=".col-xs-12 col-sm-2 col-sm-offset-5 text-center">
+            Acceleration: <input type="text" id="acctxt" value="" class="form-control">
+        </div>
+    </div>
+    <div class="row">
+        <div class=".col-xs-12 col-sm-2 col-sm-offset-5 text-center">
+            Agility: <input type="text" id="agitxt" value="" class="form-control">
+        </div>
+    </div>
+    <div class="row">
+        <div class=".col-xs-12 col-sm-2 col-sm-offset-5 text-center">
+            Balance: <input type="text" id="baltxt" value="" class="form-control">
+        </div>
+    </div>
+    <div class="row">
+        <div class=".col-xs-12 col-sm-2 col-sm-offset-5 text-center">
+            Jumping: <input type="text" id="jumtxt" value="" class="form-control">
+        </div>
+    </div>
+    <div class="row">
+        <div class=".col-xs-12 col-sm-2 col-sm-offset-5 text-center">
+            Reactions: <input type="text" id="reacttxt" value ="" class="form-control">
+        </div>
+    </div>
+    <div class="row">
+        <div class=".col-xs-12 col-sm-2 col-sm-offset-5 text-center">
+            Sprint Speed: <input type="text" id="sstxt" value="" class="form-control">
+        </div>
+    </div>
+    <div class="row">
+        <div class=".col-xs-12 col-sm-2 col-sm-offset-5 text-center">
+            Stamina: <input type="text" id="statxt" value="" class="form-control">
+        </div>
+    </div>
+    <div class="row">
+        <div class=".col-xs-12 col-sm-2 col-sm-offset-5 text-center">
+            Strength: <input type="text" id="strtxt" value="" class="form-control">
+        </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+        <div class=".col-xs-12 col-sm-4 col-sm-offset-4 text-center">
+            <label>SKILL ATTRIBUTES COMPARISON</label>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class=".col-xs-12 col-sm-2 col-sm-offset-5 text-center">
+            Ball Control: <input type="text" id="ballctxt" value="" class="form-control">
+        </div>
+    </div>
+    <div class="row">
+        <div class=".col-xs-12 col-sm-2 col-sm-offset-5 text-center">
+            Crossing: <input type="text" id="crostxt" value="" class="form-control">
+        </div>
+    </div>
+    <div class="row">
+        <div class=".col-xs-12 col-sm-2 col-sm-offset-5 text-center">
+            Curve: <input type="text" id="curtxt" value="" class="form-control">
+        </div>
+    </div>
+    <div class="row">
+        <div class=".col-xs-12 col-sm-2 col-sm-offset-5 text-center">
+            Dribbling: <input type="text" id="dribtxt" value="" class="form-control">
+        </div>
+    </div>
+    <div class="row">
+        <div class=".col-xs-12 col-sm-2 col-sm-offset-5 text-center">
+            Finishing: <input type="text" id="fintxt" value="" class="form-control">
+        </div>
+    </div>
+    <div class="row">
+        <div class=".col-xs-12 col-sm-2 col-sm-offset-5 text-center">
+            FK Acc: <input type="text" id="fkatxt" value="" class="form-control">
+        </div>
+    </div>
+    <div class="row">
+        <div class=".col-xs-12 col-sm-2 col-sm-offset-5 text-center">
+            Heading Acc <input type="text" id="hatxt" value="" class="form-control">
+        </div>
+    </div>
+    <div class="row">
+        <div class=".col-xs-12 col-sm-2 col-sm-offset-5 text-center">
+            Long Passing: <input type="text" id="lpasstxt" value="" class="form-control">
+        </div>
+    </div>
+    <div class="row">
+        <div class=".col-xs-12 col-sm-2 col-sm-offset-5 text-center">
+            Long Shots: <input type="text" id="lstxt" value="" class="form-control">
+        </div>
+    </div>
+    <div class="row">
+        <div class=".col-xs-12 col-sm-2 col-sm-offset-5 text-center">
+            Marking: <input type="text" id="mrktxt" value="" class="form-control">
+        </div>
+    </div>
+    <div class="row">
+        <div class=".col-xs-6 col-sm-2 col-sm-offset-5 text-center">
+            Penalties: <input type="text" id="pentxt" value="" class="form-control">
+        </div>
+    </div>
+    <div class="row">
+        <div class=".col-xs-6 col-sm-2 col-sm-offset-5 text-center">
+            Short Passing: <input type="text" id="spasstxt" value="" class="form-control">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class=".col-xs-6 col-sm-2 col-sm-offset-5 text-center">
+            Shot Power: <input type="text" id="sptxt" value="" class="form-control">
+        </div>
+    </div>
+    <div class="row">
+        <div class=".col-xs-6 col-sm-2 col-sm-offset-5 text-center">
+            Slide Tackle: : <input type="text" id="slidttxt" value="" class="form-control">
+        </div>
+    </div>
+    <div class="row">
+        <div class=".col-xs-6 col-sm-2 col-sm-offset-5 text-center">
+            Stand Tackle: <input type="text" id="stanttxt" value="" class="form-control">
+        </div>
+    </div>
+    <div class="row">
+        <div class=".col-xs-6 col-sm-2 col-sm-offset-5 text-center">
+            Volleys: <input type="text" id="voltxt" value="" class="form-control">
+        </div>
+    </div>
+
+    <br>
+
+    <div class="text-center">
+        <button class="btn btn-secondary btn-lg" onclick="myFunction1()">Calculate</button>
+    </div>
+
+    <br>
+
+    <div class="col-sm-4 col-sm-offset-4">
+        <div class="panel panel-default">
+
+            <br>
+            <div class="row">
+                <div class="col-sm-6 text-center">
+                    PAC <label id="lblPace"></label>
+                </div>
+                <div class="col-sm-6 text-center">
+                    DRI <label id="lblDribbling"></label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 text-center">
+                    SHO <label id="lblShooting"></label>
+                </div>
+                <div class="col-sm-6 text-center">
+                    DEF <label id="lblDefending"></label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 text-center">
+                    PAS <label id="lblPassing"></label>
+                </div>
+                <div class="col-sm-6 text-center">
+                    DEF <label id="lblPhysical"></label>
+                </div>
+            </div>
+            <br>
+        </div>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br>
+
+    <footer class="footer">
+        <div class="container">
+
+            <h5>After you get the stats, you might as well head over to <a href="http://www.futhead.com/card-generator/" target="blank">Futhead's card generator</a> add bring the cards to life</h5>
+
+        </div>
+    </footer>
+
+</div>
+
+
+</body>
+
+
+</html>
